@@ -45,20 +45,17 @@ $language = [
 $experience = [
 	[
     	'name' => 'Жирная котлета!',
-        'firstDate' => 'Июнь 2021 -',
-        'secondDane' => 'по настояцее время',
+        'date' => 'Июнь 2021 - по настояцее время',
         'discription' => 'Я вешу 7,5 кг. Меня кормили дорогими кормами для похудения, но не помогло. И теперь все забили и просто меня мучают!'
     ],
 	[
     	'name' => 'Карате Катан!',
-        'firstDate' => 'Ноябрь 2020 - ',
-        'secondDane' => 'Февраль 2021',
+        'date' => 'Ноябрь 2020 - Февраль 2021',
         'discription' => 'Я постоянно дрался со своим корешом Яшкой. Веселое было время!'
     ],
 	[
     	'name' => 'Маленький проказник!',
-        'firstDate' => 'Декабрь 2019 - ',
-        'secondDane' => 'Октябрь 2020',
+        'date' => 'Декабрь 2019 - Октябрь 2020',
         'discription' => 'Я был уличным котом и давно бы подох, если бы не мои хозяева. Меня отвели к ветеринару, вылечили и привили, и теперь я полноценный член общества! Однажды нагадил в момент, когда меня хозяин нес под курткой с ветеринарки)))))'
     ]
 ];
@@ -159,7 +156,7 @@ $experience = [
         
         <div class="w3-container">
           <h5 class="w3-opacity"><b><?=$experience[$i]['name']?></b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?=$experience[$i]['firstDate']?><span class="w3-tag w3-teal w3-round"><?=$experience[$i]['secondDate']?></span></h6>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?=$experience[$i]['date']?></span></h6>
           <p><?=$experience[$i]['discription']?></p>
           <hr>
           
